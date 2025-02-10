@@ -1,30 +1,35 @@
 import streamlit as st
+import os
 
 def main():
-    st.set_page_config(page_title="Resume Filtering System", layout="wide")
+    st.set_page_config(page_title="Resume Analysis System", layout="wide")
     
-    st.title("Welcome to the Resume Filtering System 🌟")
-
+    st.title("Advanced Resume Analysis System 🚀")
+    
     st.markdown("""
-        ## Overview
-        This application assists HR professionals in filtering and processing resumes efficiently. 
-        Utilize the navigation on the left to switch between the various features of the application:
+        ## System Features
         
-        - **Filter Resumes**: Upload and filter resumes based on job descriptions to find the top candidates. 🔍
-        - **Process Top Resumes**: Review and further process the resumes that have been ranked highest by the filter system. 📂
+        ### Core Features
+        - Resume filtering and ranking
+        - ATS score calculation
+        - PDF text extraction
+        - Email notifications
         
-        ## Features
-        - **Automated Resume Filtering**: Automatically ranks resumes based on their relevance to the job description provided. 🤖
-        - **Resume Ranking Visualization**: Visualize the ranking and scoring of each resume. 📊
-        - **Top Resume Management**: View and manage the resumes that have been identified as top candidates. 🏆
-        - **Top Candidate Analysis**: Analyse the Candidate Strengths and weakness before the interview from the resume 🔍
+        ### Advanced AI Analysis
+        - 🎯 Skills Gap Analysis
+        - 💰 Market Salary Analysis
+        - 📝 Interview Question Generator
         
-        ## How to Navigate
-        Use the left sidebar to navigate between the different pages of the application. Each page is dedicated to a specific function, allowing you to focus on one task at a time.
-        
-        ## Further Information
-        This tool is built to streamline the initial phases of the recruitment process, helping you to focus on engaging with the most promising candidates. 🚀
+        ### Requirements
+        - PDF format resumes
+        - Internet connection
+        - API access (for AI features)
     """)
+    
+    st.sidebar.success("System Status: Ready")
+    if os.path.exists("top_resumes"):
+        filtered_count = len([f for f in os.listdir("top_resumes") if f.endswith('.pdf')])
+        st.sidebar.metric("Processed Resumes", filtered_count)
 
 if __name__ == "__main__":
     main()
