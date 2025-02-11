@@ -1,0 +1,10 @@
+# Ignore environment variables file
+
+.env
+
+
+
+# Ignore virtual environment directory
+
+venv/
+
