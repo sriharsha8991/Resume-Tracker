@@ -1,0 +1,10 @@
+Based solely on the provided resume, here's an analysis:
+
+**Candidate 1: Sriharsha Velicheti (Source Document: `top_resumes\Sriharsha Resume (7).pdf`)**
+
+* **Strengths:**  Direct experience building a Retrieval Augmented Generation (RAG) application.  The job description mentions RAG, and this candidate demonstrates practical experience in developing and implementing one, including quantifiable improvements in accuracy and efficiency.  This is a strong match for the Generative AI Engineer role.
+
+* **Weak areas:** The resume doesn't explicitly mention "transformer" or "fine-tuning"  although the RAG application likely utilizes these concepts implicitly.  Further questioning during the interview will be needed to assess the depth of his understanding of these specific technologies.  The mention of LLMs is also absent.
+
+
+**Candidate 2:**  There is no information about a second candidate in the provided text.  The analysis can only be performed on the single resume given.
