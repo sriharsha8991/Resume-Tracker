@@ -17,7 +17,7 @@ today = datetime.now().strftime("%Y-%m-%d")
 class SalaryResearchAgent:
     def __init__(self):
         self.agent = Agent(
-            model=Gemini(id="gemini-2.0-flash-exp",api_key="AIzaSyBHTV8_2Ul2nrKdLEht5BKWbQEkgIZvqIA"),
+            model=Gemini(id="gemini-2.0-flash",api_key="AIzaSyAd0Z0Thf65_Wn0un26Oy2Rzcazw-dDdJQ"),
             tools=[
                 DuckDuckGoTools(),
                 

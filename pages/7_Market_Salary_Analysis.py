@@ -11,6 +11,8 @@ def main():
     
     st.title("Market Salary Analysis 💰")
     st.markdown("""
+                -- Independent Research page--
+                
     Analyze market salaries based on role, experience, skills, and location.
     Get detailed insights and compensation recommendations.
     """)

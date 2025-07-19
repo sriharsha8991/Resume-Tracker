@@ -1,0 +1,37 @@
+=== RESUME SHORTLIST SUMMARY ===
+Generated on: 2025-07-19 19:42:21
+Minimum threshold: 40%
+Total candidates analyzed: 3
+Candidates meeting threshold: 3
+
+=== SHORTLISTED CANDIDATES ===
+
+1. Sriharsha Resume Data Analytics new (2) (1).pdf
+   Overall Score: 45.6%
+   Grade: C
+   Skills Score: 25.0%
+   Experience Score: 25.0%
+   Education Score: 100.0%
+   Keywords Score: 26.7%
+   Structure Bonus: +9.0
+   Word Count: 325
+
+2. prathamesh_ettam_resume.pdf
+   Overall Score: 41.7%
+   Grade: C
+   Skills Score: 37.5%
+   Experience Score: 25.0%
+   Education Score: 33.3%
+   Keywords Score: 33.3%
+   Structure Bonus: +8.8
+   Word Count: 511
+
+3. 20btrcd019_Sriharsha_Resume_ml.pdf
+   Overall Score: 40.4%
+   Grade: C
+   Skills Score: 37.5%
+   Experience Score: 25.0%
+   Education Score: 66.7%
+   Keywords Score: 13.3%
+   Structure Bonus: +6.5
+   Word Count: 447
